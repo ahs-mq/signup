@@ -22,9 +22,30 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, delectus, harum dolor mollitia est autem qui veniam facere facilis maxime provident! Quos fugit inventore placeat eligendi error rerum! Distinctio id amet error iusto earum. Veritatis soluta mollitia magni voluptas reiciendis corrupti, fugit possimus reprehenderit distinctio enim ipsam id atque repudiandae.</p>
         <p>Sign Up <em>Now!</em></p>
     </div>
-    <div class="info">
-    
+    <div class="user">
+    <h3>Lets do this!</h3>
+    <form id="acc">
+        <div class="one">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="fname" placeholder="Thor">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email">
+        <label for="pass">Password</label>
+        <input type="password" id="pass" minlength="6">
+        </div>
+        <div class="two">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="fname" placeholder="McThorFace">
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" name="phone">
+        <label for="cpass">Confirm Password</label>
+        <input type="password" id="cpass" minlength="6">
+        </div>
+    </form>
     </div>
+    <div class="create">
+    <input type="submit" form="acc" value="Create Account">
+    <p>Already have account? <a href="#">Login</a></p>
     </div>
     </div>
 </body>

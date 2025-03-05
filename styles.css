@@ -21,7 +21,7 @@ html, body {
     flex-direction: column;
     width: 30%;
     height: 100%;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     background-image: url("src/bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -54,7 +54,7 @@ html, body {
 .signup {
     display: flex;
     flex-direction: column;
-    border: 2px solid green;
+    /* border: 2px solid green; */
     height: 100%;
     width: 70%;
 }
@@ -67,4 +67,76 @@ html, body {
     background-color: #dedede;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 550;
+}
+
+.user {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 15px;
+    padding-right: 9px;
+    background-color: rgb(245, 243, 242);
+    padding-bottom: 25px;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.one , .two {
+    text-transform: uppercase;
+    font-size: small;
+    letter-spacing: 1px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+
+input {
+    border: 1px solid #E5E7EB;
+    border-radius: 2px;
+    height: 30px;
+    width: 300px;
+}
+
+#pass:invalid {
+    border-color: red;
+}
+
+#cpass:invalid {
+    border-color: red;
+}
+
+input:hover {
+    box-shadow: 1px 1px gray;
+}
+
+input:focus {
+    border: 1.3px solid blue;
+    outline: none;
+}
+
+.create {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding-left: 15px;
+    padding-right: 9px;
+    padding-top: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: darkgrey;
+    height: 100%;
+}
+
+.create input {
+    background-color: #596D48;
+    width: 200px;
+    height: 40px;
+    border-radius: 5%;
+    color: white;
+}
+
+.create a {
+    color: #596D48;
 }
